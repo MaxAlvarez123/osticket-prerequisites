@@ -153,3 +153,32 @@ Step 6
 - Finally, go back to the osTicket installation page and hit continue and set up osTicket the way you want it. 
 </p>
 <br />
+
+<br />
+
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/PHBDnas.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/yUW4OrN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Step 7
+
+- Continue setting up System Setting and Admin user
+
+- Once getting to the database setting section you will need to install [HediSQL](https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe) and create a database named osTicket.
+
+- Log into the database by using the login creditials created when installing MySQL
+
+- Create a database name osTicket and that will be the MySQL database section for the osTicket installation page.
+
+- Click "Install Now" and you now have succesfully intalled osTicket
+
+</p>
+
+<br />
