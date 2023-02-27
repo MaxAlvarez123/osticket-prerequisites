@@ -56,13 +56,15 @@ its turned on correctly.
 <img src="https://i.imgur.com/CZeJ1Ar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step2
+Step 2
 
-After having downlaoded all of the necessary application in the "List of Prerequisites" you will now register PHP within IIS.
+- After having downlaoded all of the necessary application in the "List of Prerequisites" you will now register PHP within IIS.
 
-This is done by opening IIS as a administrator.
+- This is done by opening IIS as a administrator.
 
-Opening PHP manager and then selecting the PHP folder which has all of the unzipped contents from before.
+- Opening PHP manager 
+
+- Select the PHP folder which has all of the unzipped contents from before.
 
 </p>
 
@@ -94,7 +96,7 @@ Step 4
 
 - Within IIS Go to Sites -> Default -> osTicket and on the right click on "Browse *:80”
 
-- It will take you to the osTicket intallation page and there are still some red X's beside some extenstions which means we
+- It will take you to the osTicket intallation page. On the site there are still some red X's beside some extenstions which means we
 need to enable them in order for us to use all of the features.
 </p>
 <br />
