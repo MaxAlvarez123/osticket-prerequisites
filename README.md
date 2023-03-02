@@ -18,19 +18,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- [Have PHP Manager Installed](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view)
-- [Have Rewrite Module Installed](https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view)
-- [Have PHP 7.3.8 installed and unzip into a folder name PHP](https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view)
-- [Have C++ x86 installed](https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view)
-- [Have MySQL 5.562 installed](https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view)
+- [PHP Manager Installation](https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view)
+- [Rewrite Module Installation](https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view)
+- [PHP 7.3.8 Installation](https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view)
+- [C++ x86 installation](https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view)
+- [MySQL 5.562 installation](https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view)
 
 <h2>Installation Steps</h2>
+<p>
+<img src="https://i.imgur.com/I06v3DK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 1
+
+- In Microsoft Azure create a VM and set its image to Windows 10
+- Once created login into the VM via Remote Desktop
+- Once in use the "list of Prerequisites" to download all of the necessary applications.
+    - For the PHP 7.3.8 make sure that you unzip the contents into a file name PHP for later use.
+   
+</p>
+<br />
+
+<p>
 
 <p>
 <img src="https://i.imgur.com/VOM0Zm4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1
+Step 2
 
 - In order for PHP Manager to be installed you'll first have to enable CGI within ISS. 
 This feature allows your computer to serve a website which is what osTicket runs on.
@@ -56,7 +71,7 @@ its turned on correctly.
 <img src="https://i.imgur.com/CZeJ1Ar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2
+Step 3
 
 - After having downlaoded all of the necessary application in the "List of Prerequisites" you will now register PHP within IIS.
 
@@ -74,7 +89,7 @@ Step 2
 <img src="https://i.imgur.com/oTUNaOI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3
+Step 4
 
 - Next you'll will use the following link to dowload [osTicket.](https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view)
 
@@ -92,7 +107,7 @@ Step 3
 <img src="https://i.imgur.com/NLqZttp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 4
+Step 5
 
 - Within IIS Go to Sites -> Default -> osTicket and on the right click on "Browse *:80”
 
@@ -110,7 +125,7 @@ need to enable them in order for us to use all of the features.
 <img src="https://i.imgur.com/fcbqJum.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5
+Step 6
 
 - Back to IIS go to sites -> Default -> osTicket.
 
@@ -140,7 +155,7 @@ Step 5
 <img src="https://i.imgur.com/zSACpTO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 6
+Step 7
 
 - Next we will rename the ost-sampleconfig.php file to ost-config.php which can be found from C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
@@ -167,7 +182,7 @@ Step 6
 </p>
 <p>
 
-Step 7
+Step 8
 
 - Continue setting up System Setting and Admin user
 
