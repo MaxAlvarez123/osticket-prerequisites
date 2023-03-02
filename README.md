@@ -53,7 +53,7 @@ Step 2
 - In order for PHP Manager to be installed you'll first have to enable CGI within ISS. 
 This feature allows your computer to serve a website which is what osTicket runs on.
 
-- To test out and see if you enable CGI correctly you can use the following IP Address 127.0.0.1 and if it shows the defualt ISS website
+- To test out and see if you enable CGI correctly you can use the following loopback IP Address 127.0.0.1 and if it shows the defualt ISS website
 its turned on correctly. 
 
 - How to find CGI: Control panel -> Programs -> Turn Window Features on or off -> Internet Information Services -> World Wide Web 
