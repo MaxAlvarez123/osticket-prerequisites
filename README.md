@@ -29,11 +29,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/I06v3DK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<img src="https://i.imgur.com/1J0UrXF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 Step 1
 
 - In Microsoft Azure create a VM and set its image to Windows 10
 - Once created login into the VM via Remote Desktop
-- Once in use the "list of Prerequisites" to download all of the necessary applications.
+- Once in use the "List of Prerequisites" to download all of the necessary applications.
     - For the PHP 7.3.8 make sure that you unzip the contents into a file name PHP for later use.
    
 </p>
